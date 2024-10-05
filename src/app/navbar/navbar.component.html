@@ -1,0 +1,8 @@
+<mat-toolbar color="primary">
+  <span>Banking App</span>
+  <span class="spacer"></span>
+  <button mat-button routerLink="/new-transaction">New Transaction</button>
+  <button mat-button routerLink="/submitted-transactions" *ngIf="role === 'admin'">Submitted Transactions</button>
+  <button mat-button routerLink="/profile">Profile</button>
+  <button mat-button (click)="onLogout()">Logout</button>
+</mat-toolbar>

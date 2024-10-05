@@ -1,0 +1,8 @@
+<div class="dashboard">
+  <h2>Welcome to the Dashboard</h2>
+  <div class="actions">
+    <button routerLink="/new-transaction">New Transaction</button>
+    <button *ngIf="role === 'admin'" routerLink="/submitted-transactions">View Submitted Transactions</button>
+  </div>
+  <button class="logout" (click)="onLogout()">Logout</button>
+</div>

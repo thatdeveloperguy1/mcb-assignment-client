@@ -1,0 +1,16 @@
+.dashboard {
+  text-align: center;
+  .actions {
+    margin-bottom: 20px;
+    button {
+      margin-right: 10px;
+    }
+  }
+  .logout {
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+}
